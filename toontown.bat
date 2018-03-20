@@ -15,9 +15,4 @@ rem Export the environment variables:
 set ttiPassword=password
 set TTI_PLAYCOOKIE=%ttiUsername%
 echo DirectStart: starting the game...
-Preloading Avatars
-done Preloading Avatars
 run
-pause
-
-goto server
