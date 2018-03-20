@@ -9,7 +9,7 @@ set /P PPYTHON_PATH=<PPYTHON_PATH
 
 rem Get the user input:
 set /P ttiUsername="Username: "
-set TTI_GAMESERVER=toontownfellowship.com:6199
+set TTI_GAMESERVER=127.0.0.1:6199
 
 rem Export the environment variables:
 set ttiPassword=password
@@ -17,6 +17,7 @@ set TTI_PLAYCOOKIE=%ttiUsername%
 echo DirectStart: starting the game...
 echo Preloading Avatars
 echo done Preloading Avatars
+run
 pause
 
 goto server
